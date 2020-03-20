@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title__container">
+      <header class="title">
+        Blackjack
+      </header>
+    </div>
+
+    <div id="divBotones" class="buttons center">
+      <!-- <button id="new-game" class="btn-red">Nuevo juego</button> -->
+      <button id="another-card" class="btn-blue">Pedir carta</button>
+      <button id="game-save" class="btn-green">Detener</button>
+    </div>
+
+    <div class="game">
+      <h1 class="player">Jugador 1 - <span id="player__points">0</span></h1>
+      <div id="player__cards">
+        <!-- <img class="player__card" src="./assets/cartas/red_back.png" alt="" /> -->
+      </div>
+
+      <h1 class="computer">
+        Computadora - <span id="computer__points">0</span>
+      </h1>
+      <div id="computer__cards">
+        <!-- <img class="computer__card" src="./assets/cartas/4D.png" alt="" /> -->
+      </div>
+    </div>
+
+    <div class="modal" id="modal">
+      <p class="message" id="message">JA</p>
+      <div class="options">
+        <button class="btn" id="new-game">Nuevo juego</button>
+        <!-- <button class="btn">No</button> -->
+      </div>
+    </div>
+
+    <script src="./assets/js/underscore-min.js"></script>
+    <script src="./assets/js/juego.js"></script>
+  </body>
+</html>
