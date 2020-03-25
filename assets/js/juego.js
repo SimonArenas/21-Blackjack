@@ -87,7 +87,7 @@
       computerPoints.innerText = puntosComputadora;
 
       const imgCarta = document.createElement("img");
-      imgCarta.src = `./assets/cartas/${carta}.png`;
+      imgCarta.src = `./assets/cartas/compress/${carta}.png`;
       cartasComputadora.append(imgCarta);
       imgCarta.classList.add("computer__card");
 
